@@ -9,7 +9,7 @@ Was used MNIST and SVHN dataset becouse MNIST have poor accaracy for computer fo
 * scripts with .py files for training models
 * mean_std.py file with mean and std for pre-trained models
 * testModels.py and testModels.ipynd with testing pre-trained models(with visualization) on images from "images/"
-* numberRecognition.py script for using recognizer
+* numberRecognizern.py script for using recognizer
 ### Models
 In models folder exists such models:
 - aug_model trained on artificiol data only (lowest accuracy)
@@ -31,12 +31,13 @@ For usege script for number recognition in derectory shuold exists such folders 
 * models at leat with MNIST_SVHM_aug_model.pth file
 * mean_std.py
 * numberRecognizer.py
+
 Examples:
-+ ```python
+```python
 python numberRecognizer.py image_name
 ```
 where image_name is image Path like images/04770.png
-+ ```python
+```python
 python numberRecognizer.py image_name model_path mean std
 ```
 where model_name is model Path like models/aug_model.pth, mean and std numbers (can be 0.0 and 0.0)
