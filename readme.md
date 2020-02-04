@@ -2,7 +2,7 @@
 In this project I tied to train model for number recognition in image with height 28, as in MNIST dataset (width can be larger then 28).
 Was used MNIST and SVHN dataset becouse MNIST have poor accaracy for computer font and SVHN has such images for training. Also artificial images with digits used for augmentation.
 ### Folders and files
-* data with datasets for training models
+* data with datasets for training models (should exists for training models, don`t upload to git becouse of memory)
 * imges with images for testing pre-trained models
 * models with pre-trained models
 * notebooks with jupyter notebook for training model(with all outputs)
