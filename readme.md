@@ -41,4 +41,4 @@ where image_name is image Path like images/04770.png
 python numberRecognizer.py image_name model_path mean std
 ```
 where model_name is model Path like models/aug_model.pth, mean and std numbers (can be 0.0 and 0.0)
-## Result of prediction output in console
+- Result of prediction will on output in console
