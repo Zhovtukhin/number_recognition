@@ -26,8 +26,8 @@ Was used LeNet architecture for network. In model exist such layers:
 * Relu Activation x2
 * Max Pooling x2
 * Linear with ReLu x3
-### Usege
-For usege script for number recognition in derectory shuold exists such folders and files:
+### Usage
+For usage script for number recognition in derectory shuold exists such folders and files:
 * models at leat with MNIST_SVHM_aug_model.pth file
 * mean_std.py
 * numberRecognizer.py
